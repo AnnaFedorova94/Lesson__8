@@ -1,0 +1,211 @@
+@import "null.css";
+/*============ Fonts ================*/
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;}
+	
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;}
+
+   /* =========================================================== */
+
+body{
+	font-family: "Lato", sans-serif ;
+}
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+.page{
+	min-height: 100%;
+	overflow: hidden;
+}
+.about{
+	margin-bottom: 48px;
+}
+
+.about__title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 40px;
+}
+
+.text{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+.learn{
+	margin-bottom: 100px
+}
+.learn li:last-of-type{
+	margin-bottom: 0;
+}
+.learn__title{
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 23px;
+}
+.learn li{
+	background: url('../img/icons/vector.svg') 0 6px no-repeat;
+	padding-left: 32px;
+	margin-bottom: 4px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+/* ========================================== */
+.curator{
+	margin-bottom: 40px;
+}
+.curator__title{
+	margin-bottom: 32px;
+}
+.subtitle{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+.title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 16px;
+	color: #1E212C;
+}
+.curator__title p{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+   color: #787A80;
+}
+.curator__icon{
+	margin-bottom:32px ;
+}
+.curator__icon p{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-bottom: 4px;
+}
+
+.icon *:last-child{
+margin-bottom: 0;
+}
+
+.icon__rate::before{
+	content: "";
+	background: url("../img/icons/vector1.svg") 0 0px no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.icon__courses::before{
+	content: "";
+	background: url("../img/icons/vector2.svg") 0 1px no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.icon__students::before{
+	content: "";
+	background: url("../img/icons/vector3.svg") 0 1px no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 8px;
+}
+.curator__text{
+	margin-bottom: 40px;
+}
+/* ===================================== */
+.fb{
+background: url("../img/icons/facebook.svg") 0 50% no-repeat;
+display: inline-block;
+width: 24px;
+height: 24px;
+margin-right: 24px;
+}
+
+.be{
+	background: url("../img/icons/behance.svg") 0 50% no-repeat;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-right: 24px;
+	}
+
+.tw{
+   background: url("../img/icons/twitter.svg") 0 50% no-repeat;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-right: 24px;
+	}
+
+.in{
+	background: url("../img/icons/linked-in.svg") 0 50% no-repeat;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	}
+
+/* ===================================================== */
+.fb:hover{
+	background: url("../img/icons/facebook-red.svg") 0 50% no-repeat;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-right: 24px;
+}
+.be:hover{
+	background: url("../img/icons/behance-red.svg") 0 50% no-repeat;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-right: 24px;
+}
+.tw:hover{
+	background: url("../img/icons/twitter-red.svg") 0 50% no-repeat;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin-right: 24px;
+}
+.in:hover{
+	background: url("../img/icons/in-red.svg") 0 50% no-repeat;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+}
+/* ======================================================== */
